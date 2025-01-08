@@ -4,6 +4,7 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
+#include <string>
 
 
 
@@ -29,7 +30,7 @@ class Camera{
     }
 
     
-
+   void update(std::vector<string>& updaterefr);
    const std::vector<float>& getPosition() const {
     return position;
    }

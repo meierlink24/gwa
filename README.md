@@ -9,6 +9,7 @@
     │   ├── core/
     │   │   └── Main.cpp
     │   ├── renderer/
+    │   │   ├── Camera.cpp
     │   │   └── Renderer.cpp
     │   ├── physics/
     │   │   └── Physics.cpp
@@ -16,6 +17,7 @@
     │       └── Math.cpp
     ├── include/
     │   ├── headers/
+    │   │   ├── Camera.h
     │   │   ├── Engine.h
     │   │   ├── Renderer.h
     │   │   ├── Physics.h
@@ -24,5 +26,5 @@
     │       ├── to do
     │       ├── successful  
     │       └── failed
-    └── README.md    
+    └── README.md     
 ```
